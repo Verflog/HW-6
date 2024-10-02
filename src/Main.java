@@ -18,7 +18,7 @@ public class Main {
         }
         System.out.println("Задача 5");
         for (int i  = 1904; i <= 2096; i += 4) {
-            System.out.println(i);
+            System.out.println(i + "год является високосным");
         }
         System.out.println("Задача 6");
         for (int i  = 7; i <= 98; i += 7) {
@@ -38,7 +38,7 @@ public class Main {
         float interestSavings = 0f;
         for (int i  = 1; i <= 12; i ++) {
             interestSavings += 29_000;
-            interestSavings *= 1.12;
+            interestSavings *= 1.01;
             System.out.println("Месяц номер " + i + ", сумма накоплений равна " + interestSavings);
         }
         System.out.println("Задача 9");
